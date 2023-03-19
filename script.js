@@ -28,6 +28,7 @@ create.onclick = () => {
             date: inputdate.value,
             description: desc.value,
         })
+        edit_id= null;
     } else {
         userarray.push({
             taskname: inputText.value,
